@@ -56,7 +56,6 @@ const Navbar = () => {
   onClick={e=>setOpen(true)} />
   </Icons>
   <UserBox onClick={e=>setOpen(true)}><Avatar  sx={{width:30, height:30}} src="https://images.pexels.com/photos/13624924/pexels-photo-13624924.jpeg?cs=srgb&dl=pexels-abderrahman-bouallal-13624924.jpg&fm=jpg&_gl=1*1suhzje*_ga*NTY2NTI0Nzg1LjE2NjY0Njc4ODg.*_ga_8JE65Q40S6*MTY2NjQ2Nzg4OS4xLjEuMTY2NjQ2ODE2OS4wLjAuMA.."/>
- 
   </UserBox>
     </StyledToolbar>
     <Menu
@@ -64,6 +63,7 @@ const Navbar = () => {
         aria-labelledby="demo-positioned-button"
         
         open ={open}
+
         onClose={e => setOpen(false)}
         anchorOrigin={{
           vertical: 'top',
