@@ -1,2 +1,2 @@
-# assignment
+# React app demo
  
